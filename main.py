@@ -29,6 +29,7 @@ def hello():
 @app.route('/alive')
 def alive():
 
+    ret = ''
     if not running():
         system("chmod +x hub-twtr")
         Popen('./hub-twtr')
