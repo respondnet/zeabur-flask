@@ -21,5 +21,5 @@ def hello():
 if __name__ == '__main__':
 
     print('hello flask')
-    server = WSGIServer(('0.0.0.0', os.getenv("PORT", default=5000)), app)
+    server = WSGIServer(('0.0.0.0', getenv("PORT", default=5000)), app)
     server.serve_forever()
