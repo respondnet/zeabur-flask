@@ -1,6 +1,6 @@
 from gevent.pywsgi import WSGIServer
 from flask import Flask, request
-from os import getenv, getcwd, listdir
+from os import getenv, getcwd, listdir, system
 from os.path import join
 from subprocess import Popen
 from psutil import process_iter
@@ -30,6 +30,7 @@ def hello():
 def alive():
 
     if not running():
+        system("chmod +x hub-twtr")
         Popen('./hub-twtr')
         ret += ' started'
     else:
