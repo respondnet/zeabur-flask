@@ -1,23 +1,8 @@
-# wenzhaocomment
-827972416567652352
+# nytchinese 纽约时报中文网
+620632841
 
-# YongyuanCui1
-1080889639408291840
+# ChineseWSJ 华尔街日报中文网
+46574977
 
-# whyyoutouzhele
-1260553941714186241
-
-# CDTChinese
-85875473
-
-# xzzzjpl
-1575767611165798403
-
-# geekbb
-168139512
-
-# woyongdehuawei
-722848046321508352
-
-# zhihui999
-3341502893
+# SCMPChinese 南早中文網
+2643944580
